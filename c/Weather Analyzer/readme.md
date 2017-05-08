@@ -5,7 +5,7 @@ This program read historical data from a CSV file and generates reposts(summary 
 - Detailed gices average and precipitation for each day.
 
 Example output:
-
+```
 Please enter the year for the report: 2014
 Please enter the type of report you wish to generate:
 1) summary
@@ -410,3 +410,4 @@ September 30 2014:  17.1 ;;;;;;;;;;;;;;;;;;;;
  December 29 2014:  -2.6 @@@@@@@@@@@@@@@@@@@@
  December 30 2014:  -5.2 @@@@@@@@@@@@@@@@@@@@
  December 31 2014:  -7.8 ********************
+```

@@ -1,0 +1,38 @@
+Digraph tas {
+"SetupTank" ->"AddGravel"[color=green];
+"SetupTank"
+"RemoveTank" ->"SetupTank"[color=green];
+"RemoveTank"
+"AddGravel" ->"AssembleFilter"[color=green];
+"AddGravel" ->"RemoveGravel"[color=red];
+"RemoveGravel" ->"AddGravel"[color=green];
+"RemoveGravel"
+"AssembleFilter" ->"InstallLighting"[color=green];
+"AssembleFilter" ->"DisassembleFilter"[color=red];
+"DisassembleFilter" ->"AssembleFilter"[color=green];
+"DisassembleFilter"
+"InstallLighting" ->"AddHeater"[color=green];
+"InstallLighting" ->"ReplaceLighting"[color=red];
+"ReplaceLighting" ->"InstallLighting"[color=green];
+"ReplaceLighting"
+"AddHeater" ->"AddWater"[color=green];
+"AddHeater" ->"RemoveHeater"[color=red];
+"RemoveHeater" ->"AddHeater"[color=green];
+"RemoveHeater"
+"AddWater" ->"AddRocks"[color=green];
+"AddWater" ->"DrainWater"[color=red];
+"DrainWater" ->"AddWater"[color=green];
+"DrainWater"
+"AddRocks" ->"AddFish"[color=green];
+"AddRocks" ->"RemoveRocks"[color=red];
+"RemoveRocks" ->"AddRocks"[color=green];
+"RemoveRocks" ->"AddFish"[color=red];
+"AddFish" ->"AddCoral"[color=green];
+"AddFish" ->"CatchFish"[color=red];
+"CatchFish" ->"AddFish"[color=green];
+"CatchFish" ->"AddCoral"[color=red];
+"AddCoral" ->"AddToys"[color=green];
+"AddCoral" ->"RemoveCoral"[color=red];
+"RemoveCoral" ->"AddCoral"[color=green];
+"RemoveCoral" ->"AddToys"[color=red];
+}

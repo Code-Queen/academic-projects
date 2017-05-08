@@ -1,0 +1,10 @@
+Digraph tas {
+"Item Name:CPU" ->"Installer Name:CPU"[color=green];
+"Item Name:CPU" ->"Remover Name:Remove CPU"[color=red];
+"Item Name:Memory" ->"Installer Name:Memory"[color=green];
+"Item Name:Memory" ->"Remover Name:Remove Memory"[color=red];
+"Item Name:GPU" ->"Installer Name:GPU"[color=green];
+"Item Name:GPU" ->"Remover Name:Remove GPU"[color=red];
+"Item Name:Power Supply" ->"Installer Name:Power Supply"[color=green];
+"Item Name:Power Supply" ->"Remover Name:Remove Power Supply"[color=red];
+}

@@ -1,0 +1,12 @@
+Digraph tas {
+"Joseph Hughes"->"CPU"[color=blue];
+"Joseph Hughes"->"Memory"[color=blue];
+"Chris Szalwinski"->"CPU"[color=blue];
+"Chris Szalwinski"->"Memory"[color=blue];
+"Chris Szalwinski"->"SSD"[color=blue];
+"Chris Szalwinski"->"GPU"[color=blue];
+"Elliott Coleshill"->"CPU"[color=blue];
+"Elliott Coleshill"->"MEMORY"[color=blue];
+"Elliott Coleshill"->"Power Supply"[color=blue];
+"Elliott Coleshill"->"GPU"[color=blue];
+}

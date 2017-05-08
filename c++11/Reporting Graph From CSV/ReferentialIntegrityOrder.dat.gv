@@ -1,0 +1,11 @@
+Digraph tas {
+"Biance"->"DDR 400"[color=blue];
+"Biance"->"I7"[color=blue];
+"Biance"->"DDR 266"[color=blue];
+"Biance"->"Nano"[color=blue];
+"Biance"->"Power Supply 300 Watt"[color=blue];
+"Brianna"->"I5"[color=blue];
+"Brianna"->"Power Supply 200 Watt"[color=blue];
+"Brianna"->"DDR 266"[color=blue];
+"Brianna"->"Nano"[color=blue];
+}

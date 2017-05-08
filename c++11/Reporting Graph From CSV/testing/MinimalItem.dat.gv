@@ -1,0 +1,4 @@
+Digraph tas {
+"Item Name:I7" ->"Installer Name:INSTALL CPU"[color=green];
+"Item Name:I7" ->"Remover Name:REMOVE CPU"[color=red];
+}

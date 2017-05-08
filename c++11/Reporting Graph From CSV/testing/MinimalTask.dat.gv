@@ -1,0 +1,8 @@
+Digraph tas {
+"INSTALL CPU" ->"DONE"[color=green];
+"INSTALL CPU" ->"REMOVE CPU"[color=red];
+"REMOVE CPU" ->"INSTALL CPU"[color=green];
+"REMOVE CPU"
+"HEAD" ->"INSTALL CPU"[color=green];
+"HEAD"
+}

@@ -1,0 +1,20 @@
+Digraph tas {
+"Chloe Coleshill"->"Tank"[color=blue];
+"Chloe Coleshill"->"Gravel"[color=blue];
+"Chloe Coleshill"->"Water"[color=blue];
+"Chloe Coleshill"->"Fish"[color=blue];
+"Elliott Coleshill"->"Tank"[color=blue];
+"Elliott Coleshill"->"Gravel"[color=blue];
+"Elliott Coleshill"->"Water"[color=blue];
+"Elliott Coleshill"->"Heater"[color=blue];
+"Elliott Coleshill"->"Fish"[color=blue];
+"Elliott Coleshill"->"Toys"[color=blue];
+"Elliott Coleshill"->"Tank"[color=blue];
+"Elliott Coleshill"->"Gravel"[color=blue];
+"Elliott Coleshill"->"Water"[color=blue];
+"Elliott Coleshill"->"Lighting"[color=blue];
+"Elliott Coleshill"->"Heater"[color=blue];
+"Elliott Coleshill"->"Rocks"[color=blue];
+"Elliott Coleshill"->"Fish"[color=blue];
+"Elliott Coleshill"->"Coral"[color=blue];
+}

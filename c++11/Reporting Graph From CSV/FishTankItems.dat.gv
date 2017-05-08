@@ -1,0 +1,22 @@
+Digraph tas {
+"Item Name:Tank" ->"Installer Name:SetupTank"[color=green];
+"Item Name:Tank" ->"Remover Name:RemoveTank"[color=red];
+"Item Name:Gravel" ->"Installer Name:AddGravel"[color=green];
+"Item Name:Gravel" ->"Remover Name:RemoveGravel"[color=red];
+"Item Name:Filter" ->"Installer Name:AssembleFilter"[color=green];
+"Item Name:Filter" ->"Remover Name:DisassembleFilter"[color=red];
+"Item Name:Lighting" ->"Installer Name:InstallLighting"[color=green];
+"Item Name:Lighting" ->"Remover Name:ReplaceLighting"[color=red];
+"Item Name:Heater" ->"Installer Name:AddHeater"[color=green];
+"Item Name:Heater" ->"Remover Name:RemoveHeater"[color=red];
+"Item Name:Water" ->"Installer Name:AddWater"[color=green];
+"Item Name:Water" ->"Remover Name:DrainWater"[color=red];
+"Item Name:Rocks" ->"Installer Name:AddRocks"[color=green];
+"Item Name:Rocks" ->"Remover Name:RemoveRocks"[color=red];
+"Item Name:Fish" ->"Installer Name:AddFish"[color=green];
+"Item Name:Fish" ->"Remover Name:CatchFish"[color=red];
+"Item Name:Coral" ->"Installer Name:AddCoral"[color=green];
+"Item Name:Coral" ->"Remover Name:RemoveCoral"[color=red];
+"Item Name:Toys" ->"Installer Name:AddToys"[color=green];
+"Item Name:Toys" ->"Remover Name:RemoveToys"[color=red];
+}

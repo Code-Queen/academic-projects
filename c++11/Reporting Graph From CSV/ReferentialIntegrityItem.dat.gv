@@ -1,0 +1,20 @@
+Digraph tas {
+"Item Name:I5" ->"Installer Name:Install CPU"[color=green];
+"Item Name:I5" ->"Remover Name:Remove CPU"[color=red];
+"Item Name:I7" ->"Installer Name:Install CPU"[color=green];
+"Item Name:I7" ->"Remover Name:Remove CPU"[color=red];
+"Item Name:A12" ->"Installer Name:Install CPU"[color=green];
+"Item Name:A12" ->"Remover Name:Remove CPU"[color=red];
+"Item Name:DDR 266" ->"Installer Name:Install Memory"[color=green];
+"Item Name:DDR 266" ->"Remover Name:Remove Memory"[color=red];
+"Item Name:DDR 400" ->"Installer Name:Install Memory"[color=green];
+"Item Name:DDR 400" ->"Remover Name:Remove Memory"[color=red];
+"Item Name:Geforce 750M" ->"Installer Name:Install GPU"[color=green];
+"Item Name:Geforce 750M" ->"Remover Name:Remove GPU"[color=red];
+"Item Name:Nano" ->"Installer Name:Install GPU"[color=green];
+"Item Name:Nano" ->"Remover Name:Remove GPU"[color=red];
+"Item Name:Power Supply 200 Watt" ->"Installer Name:Install Power Supply"[color=green];
+"Item Name:Power Supply 200 Watt" ->"Remover Name:Remove Power Supply"[color=red];
+"Item Name:Power Supply 300 Watt" ->"Installer Name:Install Power Supply"[color=green];
+"Item Name:Power Supply 300 Watt" ->"Remover Name:Remove Power Supply"[color=red];
+}

@@ -1,25 +1,22 @@
-/**
- * Java Library Application
- * Version Using Vector
- *
- * This program:
- *  >builds libraries from files - at least two libraries 
- *  >asks for a book that is not in any library inventory 
- *  >asks for a book that is in a library inventory
- *      issues a rent request and prints the book
- *      issues the same rent request and prints the book
- *      returns the book
- *      issues the rent request with new dates and prints the book
- *  >asks for the same book in all libraries
- *  >calculates maximum value tag for each library 
- *  >inquires about a book - it is available? when does it become available, etc. 
- *  >if a book is rented from all libraries, finds a library
- *      that has this book available closest to the requested date.
- * */
+## Java Library Application
+Version Using Vector
 
- Example output:
+This program:
+ - builds libraries from files - at least two libraries 
+ - asks for a book that is not in any library inventory 
+ - asks for a book that is in a library inventory
+       - issues a rent request and prints the book
+       - issues the same rent request and prints the book
+       - returns the book
+       - issues the rent request with new dates and prints the book
+ - asks for the same book in all libraries
+ - calculates maximum value tag for each library 
+ - inquires about a book - it is available? when does it become available, etc. 
+ - if a book is rented from all libraries, finds a library that has this book available closest to the requested date.
 
- 
+Example output:
+
+``` 
  * TASK 1 *
 
 Library = Seneca@York
@@ -154,3 +151,4 @@ Library = Newnham
 
  * TASK 8 *
 LinkedList<T> is implemented in the project LinkedList Version.
+```

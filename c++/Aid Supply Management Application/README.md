@@ -9,7 +9,7 @@ The types of goods to be shipped in this situation are divided into two categori
 - Perishable products, such as food and medicine, that have an expiry date.
 
 Example output:
-
+```
 Disaster Aid Supply Management Program
 1- List products
 2- Display product
@@ -437,3 +437,4 @@ Disaster Aid Supply Management Program
 > 0
 
 Goodbye!!
+```
